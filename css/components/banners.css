@@ -1,0 +1,40 @@
+.banner {
+  height: 600px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  color: #F2F3F4;
+}
+
+.banner p {
+  color: #F2F3F4;
+  font-size: larger;
+  padding-bottom: 30px;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-top: 150px;
+}
+
+.banner-footer {
+  background-color: #2C2826;
+  height: 200px;
+  margin-top: 40px;
+  display: block;
+  color: #F2F3F4;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.banner-footer a {
+  text-decoration: none;
+  color: #F2F3F4;
+  font-size: 30px;
+  padding-left: 10px;
+}
